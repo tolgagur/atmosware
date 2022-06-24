@@ -54,13 +54,21 @@ public class Main {
         String string = scanner.nextLine().trim().toLowerCase(Locale.ROOT);
         String[] strings = string.split(" ");
 
+
         for (int i = 0; i < strings.length; i++) {
             strings[i] = strings[i].replaceAll("[^(defgauğıvijçklümnocöprsyhbştz)]","").trim();
         }
+        if (strings.length<=1){
+            System.out.print("Az sayıda kelime girdiniz. ");
+            getWords();
+        }
+
+
         for (int i = 0; i < strings.length; i++) {
             if (!strings[i].equals(""))
                 words.add(strings[i]);
         }
+
         System.out.println("Girilen kelimeler : " + words);
     }
 
