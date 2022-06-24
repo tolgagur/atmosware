@@ -15,8 +15,6 @@ public class Main {
 
         //kelime kontrolu (kelimeler bosluklarla ayrılmış sekilde girilir. alfabedeki karakterlerin dışındaki bütün
         //karakterler silinir ve liste liste döner.
-        //Örnek kelimeler (input) : YAKINLAŞTIRMAK, ,YERELLEŞTİRMEK  YAPAYLAŞTIRMAK, YAPILABİLİRLİK, YANITLANDIRMAK , YARDIMSEVERLİK, YASAKLAYICILIK, YASALAŞTIRILMA, YASALLAŞTIRMAK, YASSILAŞTIRMAK, YATIŞTIRICILIK, YAVANLAŞTIRMAK, YAYGINLAŞTIRMA, YELKOVANGİLLER, YENİŞARBADEMLİ, YERELLEŞTİRMEK, YERLEŞTİRİLMEK, YETİŞTİRİCİLİK, YETKİLENDİRMEK,
-        //Standart alfabe sırası : abcçdefgğhiıjklmnoöprsştuüvyz
         getWords();
         // alfabe kontrolunde set kullandım. 29 farklı karakter olmazsa tekrar alfabe girmenizi istiyor string olarak
         //alıyorum. örnek (input) -> abcçdefgğhiıjklmnoöprsştuüvyz
