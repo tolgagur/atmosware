@@ -5,11 +5,11 @@ import java.util.*;
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static List<String> words = new ArrayList<>();
-    private static List<String> wordss = List.of("ayşe", "ahmet", "mehmet");
+
     private static List<List<Integer>> wordsCharValue = new LinkedList<>();
     private static String alphabet = "";
 
-    private static String ABC2 = "defgauğıvijçklümnocöprsyhbştz";
+
 
     public static void main(String[] args) {
 
