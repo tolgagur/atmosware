@@ -12,12 +12,11 @@ public class Main {
 
     public static String palindromeTamamlayiciSayi(String sayi) {
 
-        try {
-            Integer.parseInt(sayi);
-
-        } catch (NumberFormatException nfe) {
-            return "Format Tamsayı degil";
-        }
+        boolean isNum = sayi.matches("[0-9]*");
+        if(isNum)
+            System.out.println( "String is numeric");
+        else
+            throw new NumberFormatException("String tamsayi degil");
 
         boolean b = true;
         int count = 0;
