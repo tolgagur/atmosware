@@ -14,7 +14,7 @@ public class Main {
 
         boolean isNum = sayi.matches("[0-9]*");
         if(isNum)
-            System.out.println( "String is numeric");
+            System.out.println( "String tamsayidir");
         else
             throw new NumberFormatException("String tamsayi degil");
 
