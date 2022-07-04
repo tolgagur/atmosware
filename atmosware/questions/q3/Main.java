@@ -18,11 +18,11 @@ public class Main {
         else
             throw new NumberFormatException("String tamsayi degil");
 
-        boolean b = true;
+
         int count = 0;
 
         int number = Integer.parseInt(sayi);
-        while (b) {
+        while (true) {
             String numString = String.valueOf(number);
             String numStringRe = reString(numString);
             if (String.valueOf(number).equals(numStringRe)) {
@@ -33,7 +33,7 @@ public class Main {
             }
         }
 
-        return "";
+
     }
 
     private static String reString(String numString) {
